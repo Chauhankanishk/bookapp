@@ -37,8 +37,8 @@ jobs:
         uses: einaregilsson/beanstalk-deploy@v21
         with:
          #  input the credentials you used to setup AWS CLI and credentials for the application environment
-          aws_access_key: "${{ secrets.ACCESS_KEY }}"
-          aws_secret_key: "${{ secrets.SECRET_ACCESS_KEY }}"
+          aws_access_key: "${{ secrets.AKIAT4X4SARVS5TNFK2F }}"
+          aws_secret_key: "${{ secrets.oB4cmBmFi+QwO9pGi2Aj4EcGn9adiPVf/reqAlm8 }}"
           application_name: Bookapplication
           environment_name: Bookapplication-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
